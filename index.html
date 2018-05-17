@@ -11,7 +11,7 @@
 <body>
 <!-- div.wrap>header.hd+section#con+footer.ft -->
 <div class="wrap">
-    <header class="hd"></header>
+    <header class="hd">
        <!-- div.hdWrap>(nav.tnb>(ul.left>li*2>a)+(ul.light>li*4>a))+(nav.gub>(a.logo>img)+(ul#menu>li*5>a)+(a.lnk1>span)) -->
         <div class="hdWrap">
             <nav class="tnb">
@@ -19,13 +19,15 @@
                     <li><a href=""></a></li>
                     <li><a href=""></a></li>
                 </ul> -->
-                <ul class="light">
+                <ul class="right">
                     <li><a href="login.html" class="login">로그인</a></li>
                     <li><a href="join.html" class="join">회원가입</a></li>
                 </ul>
             </nav>
             <nav class="gnb">
-                <a href="" class="logo"><img src="./images/logo.png" alt="로고"></a>
+                <a href="" class="logo">
+                    <img src="./images/logo.png" alt="로고">
+                </a>
                 <ul id="menu">
                     <li><a href="dalbomcoffee.html">DALBOM COFFEE</a></li>
                     <li><a href="menu.html">MENU</a></li>
@@ -35,18 +37,25 @@
                <!-- <a href="" class="lnk1"><span></span></a> -->
             </nav>
         </div>
+     </header>
     <section id="con">
         <div class="page" id="main">
            <figure id="visual">
                <ul class="imgbox">
                    <li>
-                       <div class="lBan"><img src="./images/bg1.PNG" alt="메인배경" class="img"></div>
-                       <div class="rBan"><img src="" alt="" class="img"></div>
-                       <div class="titBox"><img src="" alt="" class="tit"></div>
+                       <div class="lBan">
+                           <img src="./images/bg1.PNG" alt="메인배경" class="img">
+                        </div>
+                       <div class="rBan">
+                           <img src="./images/midrink.png" alt="음료" class="img">
+                       </div>
+                       <div class="titBox">
+                           <img src="./images/maintext1.PNG" alt="문구" class="tit">
+                       </div>
                    </li>
                    <li>
-                       <div class="lBan"><img src="./images/midrink.png" alt="음료" class="img"></div>
-                       <div class="rBan"><img src="./images/maintext1.PNG" alt="문구" class="img"></div>
+                       <div class="lBan"><img src="" alt="" class="img"></div>
+                       <div class="rBan"><img src="" alt="" class="img"></div>
                        <div class="titBox"><img src="" alt="" class="tit"></div>
                    </li>
                    <li>
@@ -55,9 +64,10 @@
                        <div class="titBox"><img src="" alt="" class="tit"></div>
                    </li>
                </ul>
-               <a href="" class="more"><span>달봄 소개 바로가기</span></a>
+               <a href="" class="more"><span>매장 소개 바로가기</span></a>
            </figure>
         </div>
+    </section>
         <div class="page" id="page2">
           <div class="pageWrap">
              <ul class="bthBox">
@@ -124,7 +134,6 @@
                <a href="" class="derail"></a>
            </div>
         </div>
-    </section>
     <footer class="ft">
         <div class="ftWrap">
             <nav class="fnb">
@@ -155,9 +164,21 @@
             </nav>
             <nav class="snb">
                 <ul>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
+                    <li>
+                        <a href="https://twitter.com/?lang=ko" title="twitter">
+                        <img src="./images/sns1.PNG" alt="트위터">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com" title="facebook">
+                        <img src="./images/sns2.PNG" alt="페이스북">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/dalbom_coffee/" title="instagram">
+                        <img src="./images/sns3.PNG" alt="인스타그램">
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </div>
